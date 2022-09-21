@@ -1,0 +1,264 @@
+/* font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;padding: 0;
+    text-decoration: none !important;
+    list-style: none !important;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif; 
+}
+
+.hawbir{
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 60px;
+    color: rgba(128, 128, 128, 1);
+    padding-bottom: 29px;
+}
+
+.hawikki{
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 52px;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 29px;
+}
+
+.haw{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    color: rgba(122, 122, 122, 1);
+}
+
+.hawtor{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 20px;
+}
+
+header nav{
+    padding-top: 66px;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    margin: 0px 20px;
+}
+
+header nav ul li .logo{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+
+header nav ul li a{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(128, 128, 128, 1);
+}
+
+.headertitle{
+    padding-top: 146px;
+}
+
+.headertitle h1{
+    font-weight: 400;
+    font-size: 174px;
+    line-height: 176px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.headertitle p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 32px;
+    padding-top: 80px;
+}
+
+.bir{
+    margin-top: 70px;
+    width: 100%;
+    background: url("./img/Frame (2).png");
+    padding-top: 282px;
+    padding-bottom: 276px;
+}
+
+.ikki{
+    width: 100%;
+    background: url("./img/Frame (1).png");
+    padding-top: 282px;
+    padding-bottom: 276px;
+}
+
+.uch{
+    width: 100%;
+    background: url("./img/Frame.png");
+    padding-top: 224px;
+    padding-bottom: 218px;
+}
+
+footer img{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+footer ul{
+    display: flex;
+}
+
+footer ul li{
+    margin: 0px 20px;
+}
+
+footer ul li a{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(128, 128, 128, 1);
+}
+
+footer p{
+    padding-top: 45px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: rgba(184, 184, 184, 1);
+    padding-bottom: 110px;
+}
+
+ /* media */
+    /* xl - 1200 */
+    /* lg -1199px - 992 */
+    
+    @media (max-width: 1199px) {
+        ol, ul {
+            padding: 0;
+        }
+    }
+    /* md - 991px - 768px */
+    
+    @media (max-width: 991px) {
+        footer ul li a {
+            font-size: 11px;
+        }
+        .headertitle h1{
+            font-size: 149px;
+        }
+    }
+    /* sm - 767px - 576px */
+    
+    @media (max-width: 767px) {
+        header nav ul li {
+            margin: 0px 64px;
+            padding-top: 15px;
+        }
+        .headertitle {
+            padding-top: 97px;
+        }
+        .headertitle h1 {
+            font-size: 107px;
+        }
+        .headertitle p {
+            font-size: 10px;
+            line-height: 7px;
+            padding-top: 25px;
+        }
+        .bir {
+            padding-top: 147px;
+            padding-bottom: 144px;
+        }
+        .hawbir {
+            font-size: 60px;
+            line-height: 35px;
+            padding-bottom: 9px;
+        }
+        .hawikki {
+            font-size: 40px;
+            line-height: 41px;
+            padding-bottom: 1px;
+        }
+        .hawtor {
+            font-size: 14px;
+            line-height: 9px;
+            padding-top: 5px;
+        }  
+        .ikki {
+            padding-top: 147px;
+            padding-bottom: 144px;
+        }
+        footer ul{
+            flex-direction: column;
+        }
+    }
+    /* col / xs - 575px - 320px */
+    
+    @media (max-width: 575px) {
+        header nav ul{
+            flex-direction: column;
+        }
+        .headertitle h1 {
+            font-size: 51px;
+        }
+        .headertitle {
+            padding-top: 4px;
+        }
+        .headertitle p {
+            font-size: 7px;
+            line-height: 1px;
+            padding-top: 0px;
+        }
+        .bir {
+            padding-top: 86px;
+            padding-bottom: 74px;
+        }
+        .ikki {
+            padding-top: 86px;
+            padding-bottom: 74px;
+        }
+        .uch {
+            padding-top: 86px;
+            padding-bottom: 74px;
+        }
+        .hawbir {
+            font-size: 38px;
+            line-height: 1px;
+            padding-bottom: 15px;
+        }
+        .hawikki {
+            font-size: 28px;
+            line-height: 30px;
+            padding-bottom: 1px;
+        }
+        .haw {
+            font-size: 13px;
+            line-height: 21px;
+            color: rgba(122, 122, 122, 1);
+        }
+        .hawtor {
+            font-size: 12px;
+            line-height: 5px;
+            padding-top: 3px;
+        }
+        footer img {
+            padding-top: 45px;
+            padding-bottom: 22px;
+        }
+        footer p {
+            padding-top: 19px;
+            font-size: 12px;
+            line-height: 19px;
+            padding-bottom: 27px;
+        }
+        
+    }
